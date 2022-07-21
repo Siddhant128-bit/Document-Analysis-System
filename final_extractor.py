@@ -55,8 +55,8 @@ class extractor:
             plt.scatter(X,Y,label='Marks-graph',color='r')
             plt.axhline(y=mean_percentage,color='k')
             plt.legend()
-            plt.show()
             plt.savefig(year_in+'\\'+faculty_in+'\\'+'Ouput_Image.png')
+            plt.show()
             os.system(year_in+'\\'+faculty_in+'\\summary_analysis.txt')
         except:
             print('Invalid File Requested')
