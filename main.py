@@ -25,11 +25,11 @@ if __name__=='__main__':
     os.system('cls')
     run=True
     while run:
-        #os.system('color fa')
+        os.system('color fa')
         try: 
             run=main_function()
             os.system('color fa')
-            #os.system('cls')
+            os.system('cls')
         except:
             import traceback
             print(traceback.format_exc())
